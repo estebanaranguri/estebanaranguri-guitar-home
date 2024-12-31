@@ -1,0 +1,317 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* GENERAL */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    font-family: "Nunito Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "width" 100, "YTLC" 500;
+    color: white;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    
+    width: 100%;
+    margin: auto;
+    max-width: 100%;
+    min-height: 500px;
+    height: 100vh;
+}
+
+
+/* MENU */
+.menu-btn {
+    position: absolute;
+    cursor: pointer;
+    color: white;
+    z-index: 2;
+    top: 2.7%;
+    right: 2.4%;
+    position: fixed;
+    display: none;
+    /*
+    transform:  translateX(-1900px);
+    transition: transform .3s ease-in-out;
+    */
+}
+
+.menu-btn.show {
+    display: block;
+    /* 
+    transform: translateX(0px);
+    transition: transform .3s ease-in-out;
+    */
+}
+
+.menu-btn:hover {
+    
+}
+
+.xmark {
+    cursor: pointer;
+    position: absolute;
+    top: 2%;
+    right: 2.3%;
+    position: fixed;
+    z-index: 2;
+    color: white;
+    padding: 5px;
+    display: block;
+    /*
+    transform: translateX(0px);
+    transition: transform .3s ease-in-out;
+    */
+    
+}
+
+.xmark.show {
+    display: none;
+    /*
+    transform:  translateX(-1900px);
+    transition: transform .3s ease-in-out;
+    */   
+}
+
+.xmark:hover {
+    
+}
+
+/* NAVIGATION */
+.nav-main {
+    margin: auto;
+    height: 15%;
+    width: 50%;
+    color: white;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.527));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    padding: 0;
+    transform:  translateX(0px);
+    transition: transform .3s ease-in-out;
+    
+}
+
+
+.nav-main a.logo {
+    font-family: "Tangerine", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+   
+    margin-left: 250px;
+     
+      
+}
+
+.nav-main.show {
+    transform:  translateX(975px);
+    transition: transform .3s ease-in-out;   
+}
+
+/* NAV CENTER */
+
+.nav-main {
+    
+}
+
+.nav-main ul.nav-menu {
+    position: absolute;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    text-align: right;
+    z-index: 2;
+    right: 2%;
+    top: 12.2%;
+    
+    
+    
+    /*
+    left: 12.5%;
+    border-radius: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.200),rgba(0, 0, 0, 0.200));
+    */  
+       
+}
+
+
+
+
+.nav-main ul.nav-menu li:hover {
+    
+}
+
+.nav-main ul.nav-menu li {
+    
+    padding: 15px;
+    margin: 5px 15px;
+   
+
+}
+
+.nav-main ul.nav-menu li a.home {
+    margin-left: ;
+    
+}
+
+
+.nav-main ul.nav-menu li a.home, 
+.nav-main ul.nav-menu li a.about,
+.nav-main ul.nav-menu li a.studies,
+.nav-main ul.nav-menu li a.projects,
+.nav-main ul.nav-menu li a.contact {
+    
+}
+
+.nav-menu li a {
+    display: block;
+    font-size: 1.5rem;
+    
+    
+    
+    
+}
+
+.nav-menu li a:hover {
+    color: saddlebrown;
+    
+
+}
+
+
+
+.nav-main ul.nav-menu.show {
+   
+}
+
+
+
+
+/* SHOWCASE */
+.showcase {
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.527)),
+    url(img/jefferson-santos-fCEJGBzAkrU-unsplash.jpg) no-repeat center center/cover;
+    height: 100%;
+}
+
+.showcase .content-show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+
+}
+
+.showcase .content-show a.logo {
+    font-family: "Tangerine", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    
+    
+     
+      
+}
+
+
+
+/* FOOTER */
+.footer {
+    font-family: "Nunito Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "width" 100, "YTLC" 500;
+    height: 25%;
+    padding: 40px;
+    bottom: 3%; 
+    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.footer h1 {
+    font-family: "Tangerine", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.footer.show {
+    
+}
+
+.copyright {
+    font-size: 1rem;
+}
+
+
+
+/* SOCIAL */
+.social {
+    
+    margin: auto;
+    width: 10%;
+    font-size: 0.7em;
+    
+}
+
+.social.show {
+    
+}
+
+
+.links-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.links-social a {
+    
+    margin: 20px;
+}
+
+footer,
+.showcase h2,
+.showcase p {
+    margin: auto;
+    
+}
