@@ -255,16 +255,20 @@ ul {
     font-weight: 200;
     font-style: normal;
     font-variation-settings: "width" 100, "YTLC" 500;
-    height: 25%;
-    padding: 40px;
+    height: 30%;
+    padding: 50px 30px;
     bottom: 3%; 
     text-align: center;
     font-size: 1rem;
+    
+}
+
+footer .footer-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    
+    align-items: start;
+    text-align: start;
+    margin: auto;
 }
 
 .footer h1 {
@@ -286,15 +290,15 @@ ul {
 
 /* SOCIAL */
 .social {
-    
-    margin: auto;
-    width: 10%;
     font-size: 0.7em;
     
 }
 
-.social.show {
-    
+footer .copyright,
+footer .legal-notice-content,
+footer .menu-footer-content,
+footer .news-footer-content {
+    margin: 20px 0;
 }
 
 
@@ -314,4 +318,42 @@ footer,
 .showcase p {
     margin: auto;
     
+}
+
+/* LEGAL NOTICE */
+.legal-notice {
+    
+}
+
+.legal-notice-content {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.legal-notice-content a,
+.nav-menu-footer li {
+    text-decoration: underline;
+    margin: 1px 0;
+
+}
+
+/* MENU FOOTER */
+.menu-footer {
+    
+    
+}
+
+/* NEWS FOOTER */
+.news-footer {
+    
+    
+}
+
+.social,
+.legal-notice,
+.menu-footer, 
+.news-footer {
+    
+    width: auto;
 }
