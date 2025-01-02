@@ -131,7 +131,7 @@ ul {
 }
 
 .nav-main.show {
-    transform:  translateX(975px);
+    transform:  translateX(1000px);
     transition: transform .3s ease-in-out;   
 }
 
