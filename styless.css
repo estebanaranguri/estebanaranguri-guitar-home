@@ -272,10 +272,8 @@ footer .footer-content {
 }
 
 .footer h1 {
-    font-family: "Tangerine", serif;
     font-weight: 400;
-    font-style: normal;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .footer.show {
